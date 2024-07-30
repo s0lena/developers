@@ -59,6 +59,7 @@ export const Form = () => {
 
   const handleInputChange = (e) => {
     setQuery(e.target.value);
+    setPage(1);
   };
 
   const handleLoadMore = () => {
